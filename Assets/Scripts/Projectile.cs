@@ -28,7 +28,6 @@ public class Projectile : MonoBehaviour
 
     AudioSource audioSource;
 
-    // Start is called before the first frame update
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
