@@ -11,8 +11,8 @@ public class Player : MonoBehaviour
 
     Vector2 movementVector = new Vector2(0, 0);
     float gravity = -20f;
-    float minX = -3.2f;
-    float maxX = 3.2f;
+    float minX = -3.4f;
+    float maxX = 3.4f;
     bool moveLeft;
     bool moveRight;
     float moveSpeed = 6f;
