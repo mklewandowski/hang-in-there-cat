@@ -59,7 +59,7 @@ public class Projectile : MonoBehaviour
 
     public void Launch(float additionalVelocity, float xPos)
     {
-        int itemNum = Random.Range(1, ProjectileSprites.Length);
+        int itemNum = Random.Range(0, ProjectileSprites.Length);
         spriteRenderer.sprite = ProjectileSprites[itemNum];
 
         float startX = xPos != 0 ? xPos : Random.Range (minStartX, maxStartX);
