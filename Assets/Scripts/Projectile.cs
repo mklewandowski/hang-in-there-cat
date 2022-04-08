@@ -87,6 +87,8 @@ public class Projectile : MonoBehaviour
         Player player = collider.gameObject.GetComponent<Player>();
         if (player != null && Globals.CurrentGameState == Globals.GameState.Playing)
         {
+            Camera camera = Camera.main;
+            camera.GetComponent<CameraShake>().StartShake();
             audioSource.PlayOneShot(ThunkSound, 1f);
             audioSource.PlayOneShot(ScreechSound, 1f);
             Globals.CurrentGameState = Globals.GameState.Dying;

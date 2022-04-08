@@ -825,6 +825,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420034}
   - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
@@ -924,7 +925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: fdffa4499b0be7d44abe19ee1b47d6ee, type: 3}
   autoPhase: 1
-  phase: 38.015717
+  phase: 38.769276
   grayscale: 0
   noiseIntensity: 0.3
   scanlinesIntensity: 0.3
@@ -933,6 +934,18 @@ MonoBehaviour:
   distortion: 0.05
   cubicDistortion: 0.05
   scale: 1
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50349719ac70d884fbef0e181633b1e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &535527310
 GameObject:
   m_ObjectHideFlags: 0
