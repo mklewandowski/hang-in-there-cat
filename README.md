@@ -4,6 +4,8 @@ Ages and ages ago, a friend of mine did a series of paintings of fictional 1980s
 ## Gameplay
 Hang in There is a simple micro-game featuring all of the kid-centric stuff that distracted us from school during the glory days of the 1980s. Avoid all that stuff, study hard, and hang in there! 
 
+![Hang In There gameplay](https://github.com/mklewandowski/hang-in-there-cat/blob/main/Assets/Images/hanginthere.gif?raw=true)
+
 ## Supported Platforms
 Hang in There is designed for use on multiple platforms including:
 - iOS
@@ -14,14 +16,19 @@ Hang in There is designed for use on multiple platforms including:
 ## Running locally
 Use the following steps to run locally:
 1. Clone this repo
-2. Open repo folder using Unity 2020.3.10f.1
+2. Open repo folder using Unity 2021.3.0f.1
 3. Install Text Mesh Pro
 4. Optionally install the premium package [Colorful FX](https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/colorful-fx-44845#description) which is used for some non-essential camera effects. If not using Colorful FX, then remove any unfound scripts from the `Main Camera` in the `GameScene`. 
 
 ## Development Tools
-- Created using Unity 2020.3.10f.1
+- Created using Unity 2021.3.0f.1
 - Code edited using Visual Studio Code
 - Sounds created using [Bfxr](https://www.bfxr.net/)
 - Audio edited using [Audacity](https://www.audacityteam.org/)
 - Found images edited and new images created using [Paint.NET](https://www.getpaint.net/)
+
+## Hang In There Cabinet Art
+The cabinet art painting that inspired this game was created by Tim Olson.
+
+![Hang In There cabinet art painting](https://github.com/mklewandowski/hang-in-there-cat/blob/main/Assets/Images/hanginthere.jpg?raw=true)
 
