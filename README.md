@@ -16,12 +16,12 @@ Hang in There is designed for use on multiple platforms including:
 ## Running Locally
 Use the following steps to run locally:
 1. Clone this repo
-2. Open repo folder using Unity 2021.3.0f.1
+2. Open repo folder using Unity 2021.3.3f.1
 3. Install Text Mesh Pro
 4. Optionally install the premium package [Colorful FX](https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/colorful-fx-44845#description) which is used for some non-essential camera effects. If not using Colorful FX, then remove any unfound scripts from the `Main Camera` in the `GameScene`.
 
 ## Development Tools
-- Created using Unity 2021.3.0f.1
+- Created using Unity 2021.3.3f.1
 - Code edited using Visual Studio Code
 - Sounds created using [Bfxr](https://www.bfxr.net/)
 - Audio edited using [Audacity](https://www.audacityteam.org/)
